@@ -68,7 +68,7 @@ public:
 };
 
 int main() {
-    Tahtoh;  // Activates fast input/output (optional for competitive programming).
+    Tahtoh;  // Activates fast input/output
 
     // Creating instances of Complex with different constructors.
     Complex C1(3, 4);  // Uses the constructor with two parameters.

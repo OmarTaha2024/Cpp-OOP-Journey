@@ -41,8 +41,7 @@ public:
 };
 
 int main() {
-    Tahtoh; // Activates fast input/output (optional for competitive programming).
-
+    Tahtoh; // Activates fast input/output
     // Creating instances of `Complex` (allocated on the stack).
     Complex C1; // In C++, `struct` is a value type, not a reference type (like in .NET).
     Complex C2;
