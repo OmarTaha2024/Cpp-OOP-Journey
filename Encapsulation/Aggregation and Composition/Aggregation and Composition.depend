@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1733172358 source:d:\others\aggregation and composition\main.cpp
+	<bits/stdc++.h>
+
+1733167598 source:d:\others\aggregation and composition\src\graphics.cpp
+	"graphics.h"
+
+1733167598 d:\others\aggregation and composition\include\graphics.h
+
