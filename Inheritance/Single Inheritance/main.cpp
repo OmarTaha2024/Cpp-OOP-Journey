@@ -61,23 +61,6 @@ public:
         cout << "Number of Doors: " << doors << endl;
     }
 };
-// Another derived class (inherits from Car) but can't access doors because it is private attributes
-class ElectricCar : public Car
-{
-private:
-    int batteryCapacity; // in kWh
-
-public:
-    ElectricCar(string b, string m, int d, int bc)
-        : Car(b, m, d), batteryCapacity(bc) {}
-
-    void displayInfo() const
-    {
-        // Call the parent class method
-        Car::displayInfo();
-        cout << "Battery Capacity: " << batteryCapacity << " kWh" << endl;
-    }
-};
 
 int main()
 {
@@ -85,8 +68,7 @@ int main()
     Car myCar("Toyota", "Corolla", 4);
     myCar.displayInfo();
 
-    ElectricCar myElectricCar("Tesla", "Model S", 4, 100);
-    myElectricCar.displayInfo();
+
 
     return 0;
 }
